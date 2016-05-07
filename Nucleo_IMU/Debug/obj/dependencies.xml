@@ -232,7 +232,7 @@
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\buffer.h"/>
       </source>
-      <source file="..\..\..\minmea-master\minmea.h" lastModified="154890cda99">
+      <source file="..\..\..\minmea-master\minmea.h" lastModified="1548cc33487">
       </source>
       <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.h" lastModified="1547d9a6430">
       </source>
@@ -275,7 +275,7 @@
          <include file="..\..\..\mbed\FileBase.h"/>
          <include file="..\..\..\mbed\FileHandle.h"/>
       </source>
-      <source file="..\..\..\GPS\gps.h" lastModified="15489236cd0">
+      <source file="..\..\..\GPS\gps.h" lastModified="1548cc0ff26">
          <include file="..\..\..\mbed\mbed.h"/>
       </source>
       <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h" lastModified="1547d9a6811">
@@ -580,7 +580,7 @@
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\analogout_api.h"/>
       </source>
-      <source file="..\..\..\main.cpp" lastModified="1547d9a643e">
+      <source file="..\..\..\main.cpp" lastModified="1548ca54f2a">
          <include file="..\..\..\mbed\mbed.h"/>
          <include file="..\..\..\GPS\gps.h"/>
       </source>
@@ -613,11 +613,6 @@
       </source>
       <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h" lastModified="1547d9a646e">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
-      </source>
-      <source file="..\..\..\GPS\gps.cpp" lastModified="15489634418">
-         <include file="..\..\..\mbed\mbed.h"/>
-         <include file="..\..\..\GPS\gps.h"/>
-         <include file="..\..\..\minmea-master\minmea.h"/>
       </source>
       <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_i2c.h" lastModified="1547d9a650c">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
