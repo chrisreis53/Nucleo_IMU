@@ -275,9 +275,6 @@
          <include file="..\..\..\mbed\FileBase.h"/>
          <include file="..\..\..\mbed\FileHandle.h"/>
       </source>
-      <source file="..\..\..\GPS\gps.h" lastModified="1548cc0ff26">
-         <include file="..\..\..\mbed\mbed.h"/>
-      </source>
       <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h" lastModified="1547d9a6811">
       </source>
       <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_conf.h" lastModified="1547d9a64f8">
@@ -579,10 +576,6 @@
       <source file="..\..\..\mbed\AnalogOut.h" lastModified="1547d9a6441">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\analogout_api.h"/>
-      </source>
-      <source file="..\..\..\main.cpp" lastModified="1548ca54f2a">
-         <include file="..\..\..\mbed\mbed.h"/>
-         <include file="..\..\..\GPS\gps.h"/>
       </source>
       <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_simplelink.cpp" lastModified="1547d9a6434">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>

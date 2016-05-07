@@ -21,16 +21,12 @@ struct gps_data{
     int minutes;
     int seconds;
     int microseconds;
-
-
 };
 
 void gps_init(void);  /* GPS init */
 void gps_handler(void); /* GPS Interrupt Handler */
 void gps_parser(char*);
 void gps_alt(void);
-
-
-
+gps_data get_gps(void);
 
 #endif // GPS_H_

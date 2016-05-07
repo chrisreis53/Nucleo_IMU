@@ -81,7 +81,9 @@ void gps_parser(char* data){
 		case MINMEA_SENTENCE_GGA: {
 			struct minmea_sentence_gga frame;
 			if (minmea_parse_gga(&frame, data)) {
-				gpsdata.altitude=minmea_tofloat(&frame.altitude);
+				//gpsdata.altitude=minmea_tofloat(&frame.altitude);
+				gpsdata.altitude=frame.altitude.value;
+				gpsdata.lat=frame.latitude.value;
 #ifdef DEBUG
 				printf(INDENT_SPACES "$xxGGA: fix quality: %d\n\r", frame.fix_quality);
 #endif
@@ -143,6 +145,9 @@ void gps_parser(char* data){
 		case MINMEA_SENTENCE_VTG: {
 		   struct minmea_sentence_vtg frame;
 		   if (minmea_parse_vtg(&frame, data)) {
+			   gpsdata.true_track = frame.true_track_degrees.value;
+			   gpsdata.mag_track = frame.magnetic_track_degrees.value;
+			   gpsdata.speed_kts = frame.speed_knots.value;
 #ifdef DEBUG
 				printf(INDENT_SPACES "$xxVTG: true track degrees = %f\n\r",
 					   minmea_tofloat(&frame.true_track_degrees));
@@ -175,7 +180,15 @@ void gps_parser(char* data){
 }
 
 void gps_alt(void){
-	printf("TIME:  %i:%i:%i.%i\n\r", gpsdata.hours,gpsdata.minutes,gpsdata.seconds,gpsdata.microseconds);
+	printf("TIME:  %i:%i:%2i.%2i   ALT:%i\n\r", gpsdata.hours,gpsdata.minutes,gpsdata.seconds,gpsdata.microseconds,(int)gpsdata.altitude);
+}
+
+void gps_unix_time(void){
+
+}
+
+gps_data get_gps(void){
+	return gpsdata;
 }
 
 void gps_handler(void){
