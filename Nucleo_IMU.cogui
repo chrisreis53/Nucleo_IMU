@@ -27,7 +27,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_IMU/sources/main.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="385" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="gps.cpp" partName="gps.cpp" path="C:/Users/Christopher/Desktop/Nucleo_IMU/GPS/gps.cpp" title="gps.cpp" tooltip="C:/Users/Christopher/Desktop/Nucleo_IMU/GPS/gps.cpp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="gps.cpp" partName="gps.cpp" path="D:/MyDocuments/GitHub/Nucleo_IMU/GPS/gps.cpp" title="gps.cpp" tooltip="D:/MyDocuments/GitHub/Nucleo_IMU/GPS/gps.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nucleo_IMU/sources/GPS/gps.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3269" selectionTopPixel="1927"/>
 </editor>

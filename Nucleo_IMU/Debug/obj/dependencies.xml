@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\GPS /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket\Helper /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket\Socket /I..\..\..\..\..\Users\Christopher\Documents\GitHub /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1 /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TOOLCHAIN_GCC_ARM /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\mbed /I..\..\..\..\..\Users\Christopher\Documents\GitHub\Nucleo_IMU\minmea-master">
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ramfunc.h" lastModified="1547d9a6509">
+   <includePath signature="/I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\minmea-master /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1 /I..\..\..\..\..\MyDocuments\GitHub /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\GPS /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket\Helper /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TOOLCHAIN_GCC_ARM /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\cc3000_hostdriver_mbedsocket\Socket /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\mbed\TARGET_NUCLEO_L152RE\TARGET_STM /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU /I..\..\..\..\..\MyDocuments\GitHub\Nucleo_IMU\IMU">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ramfunc.h" lastModified="15417f9524b">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_iwdg.h" lastModified="1547d9a650f">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_iwdg.h" lastModified="15417f9557c">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l152xe.h" lastModified="1547d9a68d4">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l152xe.h" lastModified="15417f957b0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cm3.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\system_stm32l1xx.h"/>
       </source>
-      <source file="..\..\..\mbed\PortIn.h" lastModified="1547d9a645f">
+      <source file="..\..\..\mbed\PortIn.h" lastModified="15417f94f60">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\port_api.h"/>
       </source>
-      <source file="..\..\..\mbed\Ticker.h" lastModified="1547d9a6534">
+      <source file="..\..\..\mbed\Ticker.h" lastModified="15417f95011">
          <include file="..\..\..\mbed\TimerEvent.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal.h" lastModified="1547d9a64f0">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal.h" lastModified="15417f953ed">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_conf.h"/>
       </source>
-      <source file="..\..\..\mbed\FileHandle.h" lastModified="1547d9a6c21">
+      <source file="..\..\..\mbed\FileHandle.h" lastModified="15417f95653">
       </source>
-      <source file="..\..\..\mbed\mbed.h" lastModified="1547d9a6d15">
+      <source file="..\..\..\mbed\mbed.h" lastModified="15417f958e8">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\mbed_error.h"/>
          <include file="..\..\..\mbed\mbed_interface.h"/>
@@ -60,77 +60,77 @@
          <include file="..\..\..\mbed\sleep_api.h"/>
          <include file="..\..\..\mbed\rtc_time.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\UDPSocket.h" lastModified="1547d9a680b">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\UDPSocket.h" lastModified="15417f94ea6">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Helper\def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_tim_ex.h" lastModified="1547d9a652c">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_tim_ex.h" lastModified="15417f956d2">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc.h" lastModified="1547d9a651c">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc.h" lastModified="15417f9562b">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc_ex.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketServer.cpp" lastModified="1547d9a6809">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketServer.cpp" lastModified="15417f94ed2">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketServer.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_adc.h" lastModified="1547d9a64f3">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_adc.h" lastModified="15417f953ff">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_adc_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\spi_api.h" lastModified="1547d9a6556">
+      <source file="..\..\..\mbed\spi_api.h" lastModified="15417f951f8">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\dma_api.h"/>
          <include file="..\..\..\mbed\buffer.h"/>
       </source>
-      <source file="..\..\..\mbed\LowPowerTimer.h" lastModified="1547d9a645e">
+      <source file="..\..\..\mbed\LowPowerTimer.h" lastModified="15417f94f4e">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\Timer.h"/>
          <include file="..\..\..\mbed\lp_ticker_api.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.cpp" lastModified="1547d9a6803">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.cpp" lastModified="15417f94ebc">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc_ex.h" lastModified="1547d9a651d">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc_ex.h" lastModified="15417f9563d">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\Ethernet.h" lastModified="1547d9a644f">
+      <source file="..\..\..\mbed\Ethernet.h" lastModified="15417f94e62">
          <include file="..\..\..\mbed\platform.h"/>
       </source>
-      <source file="..\..\..\mbed\RawSerial.h" lastModified="1547d9a6463">
+      <source file="..\..\..\mbed\RawSerial.h" lastModified="15417f94fa6">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\SerialBase.h"/>
          <include file="..\..\..\mbed\serial_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_comp.h" lastModified="1547d9a64f6">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_comp.h" lastModified="15417f9541f">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_comp_ex.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\UDPSocket.cpp" lastModified="1547d9a6bf2">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\UDPSocket.cpp" lastModified="15417f952c6">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\UDPSocket.h"/>
       </source>
-      <source file="..\..\..\mbed\port_api.h" lastModified="1547d9a654e">
+      <source file="..\..\..\mbed\port_api.h" lastModified="15417f95188">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\PortOut.h" lastModified="1547d9a6461">
+      <source file="..\..\..\mbed\PortOut.h" lastModified="15417f94f7f">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\port_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma_ex.h" lastModified="1547d9a6504">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma_ex.h" lastModified="15417f954e0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd.h" lastModified="1547d9a6518">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd.h" lastModified="15417f955da">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\gpio_irq_api.h" lastModified="1547d9a6540">
+      <source file="..\..\..\mbed\gpio_irq_api.h" lastModified="15417f950e9">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\pwmout_api.h" lastModified="1547d9a654f">
+      <source file="..\..\..\mbed\pwmout_api.h" lastModified="15417f95198">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\SerialBase.h" lastModified="1547d9a6466">
+      <source file="..\..\..\mbed\SerialBase.h" lastModified="15417f94ff1">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\Stream.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
@@ -138,66 +138,66 @@
          <include file="..\..\..\mbed\CThunk.h"/>
          <include file="..\..\..\mbed\dma_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_nor.h" lastModified="1547d9a6513">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_nor.h" lastModified="15417f955a0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_fsmc.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_sdmmc.h" lastModified="1547d9a6531">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_sdmmc.h" lastModified="15417f9572b">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\objects.h" lastModified="1547d9a6473">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\objects.h" lastModified="15417f957fb">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PortNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\gpio_object.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash.h" lastModified="1547d9a6505">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash.h" lastModified="15417f954f0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ex.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ramfunc.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Helper\def.h" lastModified="1547d9a6416">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Helper\def.h" lastModified="15417f94a6a">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
       </source>
-      <source file="..\..\..\mbed\can_api.h" lastModified="1547d9a653c">
+      <source file="..\..\..\mbed\can_api.h" lastModified="15417f95097">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h"/>
          <include file="..\..\..\mbed\can_helper.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.h" lastModified="1547d9a643a">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.h" lastModified="15417f949d7">
       </source>
-      <source file="..\..\..\mbed\buffer.h" lastModified="1547d9a6924">
+      <source file="..\..\..\mbed\buffer.h" lastModified="15417f9546d">
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.h" lastModified="1547d9a642d">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.h" lastModified="15417f94984">
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.cpp" lastModified="1547d9a6431">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.cpp" lastModified="15417f94a14">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.cpp" lastModified="1547d9a6424">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.cpp" lastModified="15417f949e4">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma.h" lastModified="1547d9a6503">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma.h" lastModified="15417f954d0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cryp_ex.h" lastModified="1547d9a64fc">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cryp_ex.h" lastModified="15417f9548c">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\BusInOut.h" lastModified="1547d9a6443">
+      <source file="..\..\..\mbed\BusInOut.h" lastModified="15417f94dba">
          <include file="..\..\..\mbed\DigitalInOut.h"/>
       </source>
-      <source file="..\..\..\mbed\SPISlave.h" lastModified="1547d9a6465">
+      <source file="..\..\..\mbed\SPISlave.h" lastModified="15417f94fc9">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\spi_api.h"/>
       </source>
-      <source file="..\..\..\mbed\sleep_api.h" lastModified="1547d9a6555">
+      <source file="..\..\..\mbed\sleep_api.h" lastModified="15417f951e8">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\SPI.h" lastModified="1547d9a6464">
+      <source file="..\..\..\mbed\SPI.h" lastModified="15417f94fb7">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\spi_api.h"/>
          <include file="..\..\..\mbed\CThunk.h"/>
@@ -206,78 +206,88 @@
          <include file="..\..\..\mbed\FunctionPointer.h"/>
          <include file="..\..\..\mbed\Transaction.h"/>
       </source>
-      <source file="..\..\..\mbed\Transaction.h" lastModified="1547d9a6539">
+      <source file="..\..\..\mbed\Transaction.h" lastModified="15417f95053">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_wlan.cpp" lastModified="1547d9a643c">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_wlan.cpp" lastModified="15417f94a4c">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cortex.h" lastModified="1547d9a64f9">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cortex.h" lastModified="15417f95454">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\FileSystemLike.h" lastModified="1547d9a6453">
+      <source file="..\..\..\mbed\FileSystemLike.h" lastModified="15417f94eb8">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\FileBase.h"/>
          <include file="..\..\..\mbed\FileHandle.h"/>
          <include file="..\..\..\mbed\DirHandle.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_lcd.h" lastModified="1547d9a6512">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_lcd.h" lastModified="15417f9558f">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\us_ticker_api.h" lastModified="1547d9a6941">
+      <source file="..\..\..\mbed\us_ticker_api.h" lastModified="15417f9560f">
          <include file="..\..\..\mbed\ticker_api.h"/>
       </source>
-      <source file="..\..\..\mbed\i2c_api.h" lastModified="1547d9a6541">
+      <source file="..\..\..\mbed\i2c_api.h" lastModified="15417f950f8">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\buffer.h"/>
       </source>
-      <source file="..\..\..\minmea-master\minmea.h" lastModified="1548cc33487">
+      <source file="..\..\..\IMU\IMU.h" lastModified="154a8497020">
+         <include file="..\..\..\mbed\mbed.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.h" lastModified="1547d9a6430">
+      <source file="..\..\..\minmea-master\minmea.h" lastModified="1548d27ff8e">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cm3.h" lastModified="1547d9a68bf">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.h" lastModified="15417f94994">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cm3.h" lastModified="15417f95702">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmInstr.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmFunc.h"/>
       </source>
-      <source file="..\..\..\minmea-master\minmea.c" lastModified="154890cd6a0">
+      <source file="..\..\..\minmea-master\minmea.c" lastModified="1548d27fba0">
          <include file="..\..\..\minmea-master\minmea.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis_nvic.h" lastModified="1547d9a64c8">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TOOLCHAIN_GCC_ARM\IMU.cpp" lastModified="154a8544447">
+         <include file="..\..\..\mbed\mbed.h"/>
+         <include file="..\..\..\IMU\IMU.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis_nvic.h" lastModified="15417f9529f">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_sram.h" lastModified="1547d9a6528">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_sram.h" lastModified="15417f956b2">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_fsmc.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.h" lastModified="1547d9a6432">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.h" lastModified="15417f949a5">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pwr.h" lastModified="1547d9a651b">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pwr.h" lastModified="15417f95602">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pwr_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\platform.h" lastModified="1547d9a74ee">
+      <source file="..\..\..\mbed\platform.h" lastModified="15417f9611b">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h"/>
       </source>
-      <source file="..\..\..\mbed\DirHandle.h" lastModified="1547d9a6836">
+      <source file="..\..\..\mbed\DirHandle.h" lastModified="15417f95239">
          <include file="..\..\..\mbed\FileHandle.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_usart.h" lastModified="1547d9a652e">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_usart.h" lastModified="15417f956f5">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\mbed_interface.h" lastModified="1547d9a654b">
+      <source file="..\..\..\mbed\mbed_interface.h" lastModified="15417f95158">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\CThunk.h" lastModified="1547d9a6446">
+      <source file="..\..\..\mbed\CThunk.h" lastModified="15417f94df0">
       </source>
-      <source file="..\..\..\mbed\FileLike.h" lastModified="1547d9a6452">
+      <source file="..\..\..\mbed\FileLike.h" lastModified="15417f94e93">
          <include file="..\..\..\mbed\FileBase.h"/>
          <include file="..\..\..\mbed\FileHandle.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h" lastModified="1547d9a6811">
+      <source file="..\..\..\GPS\gps.h" lastModified="1548d27e74c">
+         <include file="..\..\..\mbed\mbed.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_conf.h" lastModified="1547d9a64f8">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h" lastModified="15417f94d5b">
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_conf.h" lastModified="15417f95443">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rcc.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dma.h"/>
@@ -307,255 +317,255 @@
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_wwdg.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h" lastModified="1547d9a64c7">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h" lastModified="15417f9528e">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis_nvic.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.cpp" lastModified="1547d9a642f">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.cpp" lastModified="15417f94a09">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.h"/>
       </source>
-      <source file="..\..\..\mbed\PwmOut.h" lastModified="1547d9a6462">
+      <source file="..\..\..\mbed\PwmOut.h" lastModified="15417f94f93">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\pwmout_api.h"/>
       </source>
-      <source file="..\..\..\mbed\Serial.h" lastModified="1547d9a6465">
+      <source file="..\..\..\mbed\Serial.h" lastModified="15417f94fdb">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\Stream.h"/>
          <include file="..\..\..\mbed\SerialBase.h"/>
          <include file="..\..\..\mbed\serial_api.h"/>
       </source>
-      <source file="..\..\..\mbed\rtc_time.h" lastModified="1547d9a6938">
+      <source file="..\..\..\mbed\rtc_time.h" lastModified="15417f9559e">
       </source>
-      <source file="..\..\..\mbed\LowPowerTicker.h" lastModified="1547d9a645c">
+      <source file="..\..\..\mbed\LowPowerTicker.h" lastModified="15417f94f2c">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\Ticker.h"/>
          <include file="..\..\..\mbed\lp_ticker_api.h"/>
       </source>
-      <source file="..\..\..\mbed\mbed_assert.h" lastModified="1547d9a6547">
+      <source file="..\..\..\mbed\mbed_assert.h" lastModified="15417f95129">
       </source>
-      <source file="..\..\..\mbed\DigitalIn.h" lastModified="1547d9a644b">
+      <source file="..\..\..\mbed\DigitalIn.h" lastModified="15417f94e1f">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\gpio_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmFunc.h" lastModified="1547d9a7094">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmFunc.h" lastModified="15417f95f16">
       </source>
-      <source file="..\..\..\mbed\dma_api.h" lastModified="1547d9a6926">
+      <source file="..\..\..\mbed\dma_api.h" lastModified="15417f9549e">
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_security.cpp" lastModified="1547d9a6433">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_security.cpp" lastModified="15417f94a20">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_irda.h" lastModified="1547d9a650e">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_irda.h" lastModified="15417f95566">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio.h" lastModified="1547d9a650a">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio.h" lastModified="15417f95525">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PortNames.h" lastModified="1547d9a6470">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PortNames.h" lastModified="15417f957d7">
       </source>
-      <source file="..\..\..\mbed\FunctionPointer.h" lastModified="1547d9a6c24">
+      <source file="..\..\..\mbed\FunctionPointer.h" lastModified="15417f95698">
       </source>
-      <source file="..\..\..\mbed\ticker_api.h" lastModified="1547d9a6556">
+      <source file="..\..\..\mbed\ticker_api.h" lastModified="15417f95208">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_hci.cpp" lastModified="1547d9a642e">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_hci.cpp" lastModified="15417f949fd">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_comp_ex.h" lastModified="1547d9a64f7">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_comp_ex.h" lastModified="15417f95431">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmInstr.h" lastModified="1547d9a7096">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\core_cmInstr.h" lastModified="15417f95f25">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_crc.h" lastModified="1547d9a64fa">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_crc.h" lastModified="15417f95465">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_spi.h" lastModified="1547d9a6525">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_spi.h" lastModified="15417f9568d">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_spi_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_spi_ex.h" lastModified="1547d9a6526">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_spi_ex.h" lastModified="15417f956a0">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\serial_api.h" lastModified="1547d9a6553">
+      <source file="..\..\..\mbed\serial_api.h" lastModified="15417f951d8">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\buffer.h"/>
          <include file="..\..\..\mbed\dma_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TimerEvent.h" lastModified="1547d9a6538">
+      <source file="..\..\..\mbed\TimerEvent.h" lastModified="15417f95045">
          <include file="..\..\..\mbed\ticker_api.h"/>
          <include file="..\..\..\mbed\us_ticker_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dac.h" lastModified="1547d9a64fd">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dac.h" lastModified="15417f9549c">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dac_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h" lastModified="1547d9a6472">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h" lastModified="15417f957eb">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\objects.h"/>
       </source>
-      <source file="..\..\..\mbed\I2C.h" lastModified="1547d9a6455">
+      <source file="..\..\..\mbed\I2C.h" lastModified="15417f94ed7">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\i2c_api.h"/>
          <include file="..\..\..\mbed\CThunk.h"/>
          <include file="..\..\..\mbed\dma_api.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_fsmc.h" lastModified="1547d9a652f">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_fsmc.h" lastModified="15417f95719">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\wait_api.h" lastModified="1547d9a655a">
+      <source file="..\..\..\mbed\wait_api.h" lastModified="15417f95235">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx.h" lastModified="1547d9aab3e">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx.h" lastModified="15417f99a2a">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l152xe.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.cpp" lastModified="1547d9a6438">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.cpp" lastModified="15417f94a41">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.h"/>
       </source>
-      <source file="..\..\..\mbed\AnalogIn.h" lastModified="1547d9a6440">
+      <source file="..\..\..\mbed\AnalogIn.h" lastModified="15417f94d87">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\analogin_api.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.cpp" lastModified="1547d9a6806">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.cpp" lastModified="15417f94ec7">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_wwdg.h" lastModified="1547d9a652e">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_wwdg.h" lastModified="15417f95707">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\DigitalInOut.h" lastModified="1547d9a644c">
+      <source file="..\..\..\mbed\DigitalInOut.h" lastModified="15417f94e30">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\gpio_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ex.h" lastModified="1547d9a6507">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_flash_ex.h" lastModified="15417f95500">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\I2CSlave.h" lastModified="1547d9a6455">
+      <source file="..\..\..\mbed\I2CSlave.h" lastModified="15417f94ee8">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\i2c_api.h"/>
       </source>
-      <source file="..\..\..\mbed\can_helper.h" lastModified="1547d9a653d">
+      <source file="..\..\..\mbed\can_helper.h" lastModified="15417f950a7">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd_ex.h" lastModified="1547d9a6519">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pcd_ex.h" lastModified="15417f955ea">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_opamp.h" lastModified="1547d9a6515">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_opamp.h" lastModified="15417f955b4">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_opamp_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rtc_ex.h" lastModified="1547d9a651f">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rtc_ex.h" lastModified="15417f95669">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_tim.h" lastModified="1547d9a652a">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_tim.h" lastModified="15417f956c3">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_tim_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\Stream.h" lastModified="1547d9a684f">
+      <source file="..\..\..\mbed\Stream.h" lastModified="15417f953e9">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\FileLike.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.h" lastModified="1547d9a641a">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.h" lastModified="15417f94a7f">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\BusIn.h" lastModified="1547d9a6442">
+      <source file="..\..\..\mbed\BusIn.h" lastModified="15417f94da9">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\DigitalIn.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_uart.h" lastModified="1547d9a652d">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_uart.h" lastModified="15417f956e4">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketServer.h" lastModified="1547d9a6422">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketServer.h" lastModified="15417f94aae">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rtc.h" lastModified="1547d9a651d">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rtc.h" lastModified="15417f95654">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_rtc_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h" lastModified="1547d9a646d">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h" lastModified="15417f957aa">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_smartcard.h" lastModified="1547d9a6523">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_smartcard.h" lastModified="15417f95513">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\FileBase.h" lastModified="1547d9a73f0">
+      <source file="..\..\..\mbed\FileBase.h" lastModified="15417f95e12">
          <include file="..\..\..\mbed\platform.h"/>
       </source>
-      <source file="..\..\..\mbed\analogin_api.h" lastModified="1547d9a653a">
+      <source file="..\..\..\mbed\analogin_api.h" lastModified="15417f95063">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\analogout_api.h" lastModified="1547d9a653b">
+      <source file="..\..\..\mbed\analogout_api.h" lastModified="15417f95074">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\mbed\Timeout.h" lastModified="1547d9a6535">
+      <source file="..\..\..\mbed\Timeout.h" lastModified="15417f95020">
          <include file="..\..\..\mbed\Ticker.h"/>
       </source>
-      <source file="..\..\..\mbed\PortInOut.h" lastModified="1547d9a6460">
+      <source file="..\..\..\mbed\PortInOut.h" lastModified="15417f94f6f">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\port_api.h"/>
       </source>
-      <source file="..\..\..\mbed\LocalFileSystem.h" lastModified="1547d9a6458">
+      <source file="..\..\..\mbed\LocalFileSystem.h" lastModified="15417f94f1b">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\FileSystemLike.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.cpp" lastModified="1547d9a642b">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.cpp" lastModified="15417f949f0">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_netapp.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.cpp" lastModified="1547d9a6801">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.cpp" lastModified="15417f94eb2">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Helper\def.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_i2s.h" lastModified="1547d9a650d">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_i2s.h" lastModified="15417f95555">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.h" lastModified="1547d9a6420">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\TCPSocketConnection.h" lastModified="15417f94a9e">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Endpoint.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cryp.h" lastModified="1547d9a64fb">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cryp.h" lastModified="15417f95477">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_cryp_ex.h"/>
       </source>
-      <source file="..\..\..\mbed\BusOut.h" lastModified="1547d9a6444">
+      <source file="..\..\..\mbed\BusOut.h" lastModified="15417f94dcb">
          <include file="..\..\..\mbed\DigitalOut.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pwr_ex.h" lastModified="1547d9a651b">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_pwr_ex.h" lastModified="15417f95619">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.cpp" lastModified="1547d9a6435">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.cpp" lastModified="15417f94a37">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_event.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h"/>
       </source>
-      <source file="..\..\..\mbed\CircularBuffer.h" lastModified="1547d9a6449">
+      <source file="..\..\..\mbed\CircularBuffer.h" lastModified="15417f94e0f">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dac_ex.h" lastModified="1547d9a64ff">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_dac_ex.h" lastModified="15417f954ac">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\Timer.h" lastModified="1547d9a6536">
+      <source file="..\..\..\mbed\Timer.h" lastModified="15417f95032">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\ticker_api.h"/>
       </source>
-      <source file="..\..\..\mbed\InterruptIn.h" lastModified="1547d9a6456">
+      <source file="..\..\..\mbed\InterruptIn.h" lastModified="15417f94ef8">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\gpio_api.h"/>
          <include file="..\..\..\mbed\gpio_irq_api.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_adc_ex.h" lastModified="1547d9a64f5">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_adc_ex.h" lastModified="15417f9540f">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\mbed_error.h" lastModified="1547d9a654a">
+      <source file="..\..\..\mbed\mbed_error.h" lastModified="15417f95149">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h" lastModified="1547d9a6501">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h" lastModified="15417f954be">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h" lastModified="1547d9a6426">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h" lastModified="15417f94960">
          <include file="..\..\..\mbed\mbed.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_spi.h"/>
@@ -564,65 +574,70 @@
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_nvmem.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.h"/>
       </source>
-      <source file="..\..\..\mbed\CAN.h" lastModified="1547d9a6445">
+      <source file="..\..\..\mbed\CAN.h" lastModified="15417f94ddf">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\can_api.h"/>
          <include file="..\..\..\mbed\can_helper.h"/>
          <include file="..\..\..\mbed\FunctionPointer.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_sd.h" lastModified="1547d9a6521">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_sd.h" lastModified="15417f9567a">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_ll_sdmmc.h"/>
       </source>
-      <source file="..\..\..\mbed\AnalogOut.h" lastModified="1547d9a6441">
+      <source file="..\..\..\mbed\AnalogOut.h" lastModified="15417f94d99">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\analogout_api.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_simplelink.cpp" lastModified="1547d9a6434">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_simplelink.cpp" lastModified="15417f94a2b">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_common.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.h" lastModified="1547d9a6437">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_socket.h" lastModified="15417f949c6">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\gpio_object.h" lastModified="1547d9a6474">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\gpio_object.h" lastModified="15417f95783">
          <include file="..\..\..\mbed\mbed_assert.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PortNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PeripheralNames.h"/>
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio_ex.h" lastModified="1547d9a650b">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_gpio_ex.h" lastModified="15417f95536">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\LowPowerTimeout.h" lastModified="1547d9a645d">
+      <source file="..\..\..\mbed\LowPowerTimeout.h" lastModified="15417f94f3d">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\lp_ticker_api.h"/>
          <include file="..\..\..\mbed\LowPowerTicker.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\system_stm32l1xx.h" lastModified="1547d9a6533">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\system_stm32l1xx.h" lastModified="15417f95746">
       </source>
-      <source file="..\..\..\mbed\lp_ticker_api.h" lastModified="1547d9a6542">
+      <source file="..\..\..\mbed\lp_ticker_api.h" lastModified="15417f95108">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
          <include file="..\..\..\mbed\ticker_api.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h" lastModified="1547d9a646e">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\PinNames.h" lastModified="15417f957bd">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\cmsis.h"/>
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_i2c.h" lastModified="1547d9a650c">
+      <source file="..\..\..\GPS\gps.cpp" lastModified="1548d27f6eb">
+         <include file="..\..\..\mbed\mbed.h"/>
+         <include file="..\..\..\GPS\gps.h"/>
+         <include file="..\..\..\minmea-master\minmea.h"/>
+      </source>
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_i2c.h" lastModified="15417f95544">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\mbed\gpio_api.h" lastModified="1547d9a653f">
+      <source file="..\..\..\mbed\gpio_api.h" lastModified="15417f950d9">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\TARGET_STM\TARGET_STM32L1\TARGET_NUCLEO_L152RE\device.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h" lastModified="1547d9a641d">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\Socket\Socket.h" lastModified="15417f94a8f">
          <include file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000.h"/>
       </source>
-      <source file="..\..\..\mbed\DigitalOut.h" lastModified="1547d9a644d">
+      <source file="..\..\..\mbed\DigitalOut.h" lastModified="15417f94e40">
          <include file="..\..\..\mbed\platform.h"/>
          <include file="..\..\..\mbed\gpio_api.h"/>
       </source>
-      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_simplelink.h" lastModified="1547d9a6434">
+      <source file="..\..\..\cc3000_hostdriver_mbedsocket\cc3000_simplelink.h" lastModified="15417f949b5">
       </source>
-      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_opamp_ex.h" lastModified="1547d9a6516">
+      <source file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_opamp_ex.h" lastModified="15417f955c9">
          <include file="..\..\..\mbed\TARGET_NUCLEO_L152RE\stm32l1xx_hal_def.h"/>
       </source>
    </includePath>
