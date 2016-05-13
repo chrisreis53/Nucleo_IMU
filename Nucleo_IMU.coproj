@@ -191,13 +191,14 @@
     <File name="headers/cc3000_hostdriver_mbedsocket/Socket/Endpoint.h" path="cc3000_hostdriver_mbedsocket/Socket/Endpoint.h" type="1"/>
     <File name="sources/main.cpp" path="main.cpp" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" type="1"/>
+    <File name="sources/IMU" path="" type="2"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/cc3000.h" path="cc3000_hostdriver_mbedsocket/cc3000.h" type="1"/>
     <File name="headers/mbed/DigitalOut.h" path="mbed/DigitalOut.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/arm_common_tables.h" path="mbed/TARGET_NUCLEO_L152RE/arm_common_tables.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_sc300.h" path="mbed/TARGET_NUCLEO_L152RE/core_sc300.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_iwdg.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_iwdg.h" type="1"/>
-    <File name="headers/mbed/Transaction.h" path="mbed/Transaction.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/cmsis.h" path="mbed/TARGET_NUCLEO_L152RE/cmsis.h" type="1"/>
+    <File name="headers/mbed/Transaction.h" path="mbed/Transaction.h" type="1"/>
     <File name="headers/mbed/gpio_api.h" path="mbed/gpio_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_fsmc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_fsmc.h" type="1"/>
     <File name="headers/mbed/mbed_error.h" path="mbed/mbed_error.h" type="1"/>
@@ -278,6 +279,7 @@
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_i2s.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_i2s.h" type="1"/>
     <File name="headers/mbed/wait_api.h" path="mbed/wait_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_cmInstr.h" path="mbed/TARGET_NUCLEO_L152RE/core_cmInstr.h" type="1"/>
+    <File name="sources/IMU/IMU.h" path="IMU/IMU.h" type="1"/>
     <File name="headers/mbed/gpio_irq_api.h" path="mbed/gpio_irq_api.h" type="1"/>
     <File name="headers/mbed/PortInOut.h" path="mbed/PortInOut.h" type="1"/>
     <File name="headers/mbed/mbed.h" path="mbed/mbed.h" type="1"/>
