@@ -5,7 +5,7 @@ imu_data imudata;
 int inc = 0;
 
 int increment_imu(void){
-	if(inc==60){
+	if(inc==50){
 		inc=0;
 		return 1;
 	}else{
