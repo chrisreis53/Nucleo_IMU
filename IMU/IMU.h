@@ -20,7 +20,7 @@ struct imu_data{
 void set_gyro(int,int,int);
 void set_accel(int,int,int);
 void set_mag(int,int,int);
-void set_all(uint,uint,uint,uint,uint,uint,uint,uint,uint);
+void set_all(int,int,int,int,int,int,int,int,int);
 int increment_imu(void);
 imu_data get_imu(void);
 

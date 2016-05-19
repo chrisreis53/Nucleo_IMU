@@ -118,16 +118,16 @@
     <File name="headers/mbed/PwmOut.h" path="mbed/PwmOut.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/PeripheralPins.h" path="mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/PeripheralPins.h" type="1"/>
     <File name="headers/mbed/Ethernet.h" path="mbed/Ethernet.h" type="1"/>
-    <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_socket.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_socket.cpp" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_gpio_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_gpio_ex.h" type="1"/>
+    <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_socket.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_socket.cpp" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rcc_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rcc_ex.h" type="1"/>
     <File name="headers/mbed/I2C.h" path="mbed/I2C.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_comp.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_comp.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/arm_math.h" path="mbed/TARGET_NUCLEO_L152RE/arm_math.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_spi.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_spi.cpp" type="1"/>
     <File name="headers/mbed/DirHandle.h" path="mbed/DirHandle.h" type="1"/>
-    <File name="headers/mbed/mbed_debug.h" path="mbed/mbed_debug.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/Socket/Socket.cpp" path="cc3000_hostdriver_mbedsocket/Socket/Socket.cpp" type="1"/>
+    <File name="headers/mbed/mbed_debug.h" path="mbed/mbed_debug.h" type="1"/>
     <File name="headers/mbed/Stream.h" path="mbed/Stream.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_pwr_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_pwr_ex.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/system_stm32l1xx.h" path="mbed/TARGET_NUCLEO_L152RE/system_stm32l1xx.h" type="1"/>
@@ -142,13 +142,13 @@
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/hal_tick.h" path="mbed/TARGET_NUCLEO_L152RE/hal_tick.h" type="1"/>
+    <File name="headers/mbed/i2c_api.h" path="mbed/i2c_api.h" type="1"/>
     <File name="headers/mbed/RawSerial.h" path="mbed/RawSerial.h" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_simplelink.h" path="cc3000_hostdriver_mbedsocket/cc3000_simplelink.h" type="1"/>
-    <File name="headers/mbed/i2c_api.h" path="mbed/i2c_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ex.h" type="1"/>
     <File name="headers/mbed/LocalFileSystem.h" path="mbed/LocalFileSystem.h" type="1"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ramfunc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ramfunc.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_cm7.h" path="mbed/TARGET_NUCLEO_L152RE/core_cm7.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ramfunc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash_ramfunc.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_simplelink.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_simplelink.cpp" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/Socket/Socket.h" path="cc3000_hostdriver_mbedsocket/Socket/Socket.h" type="1"/>
     <File name="headers/mbed/BusInOut.h" path="mbed/BusInOut.h" type="1"/>
@@ -157,10 +157,10 @@
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_comp_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_comp_ex.h" type="1"/>
     <File name="headers/mbed/port_api.h" path="mbed/port_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_caFunc.h" path="mbed/TARGET_NUCLEO_L152RE/core_caFunc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc_ex.h" type="1"/>
+    <File name="headers/cc3000_hostdriver_mbedsocket/Socket" path="" type="2"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/Socket/UDPSocket.cpp" path="cc3000_hostdriver_mbedsocket/Socket/UDPSocket.cpp" type="1"/>
     <File name="sources/GPS/gps.cpp" path="GPS/gps.cpp" type="1"/>
-    <File name="headers/cc3000_hostdriver_mbedsocket/Socket" path="" type="2"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc_ex.h" type="1"/>
     <File name="headers/mbed/pwmout_api.h" path="mbed/pwmout_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_tim.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_tim.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_spi_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_spi_ex.h" type="1"/>
@@ -172,8 +172,8 @@
     <File name="headers/mbed/I2CSlave.h" path="mbed/I2CSlave.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE" path="" type="2"/>
     <File name="headers/mbed/CircularBuffer.h" path="mbed/CircularBuffer.h" type="1"/>
-    <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_socket.h" path="cc3000_hostdriver_mbedsocket/cc3000_socket.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_dma.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_dma.h" type="1"/>
+    <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_socket.h" path="cc3000_hostdriver_mbedsocket/cc3000_socket.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_security.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_security.cpp" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_flash.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_dac_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_dac_ex.h" type="1"/>
@@ -186,19 +186,19 @@
     <File name="headers/mbed/AnalogOut.h" path="mbed/AnalogOut.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/Socket/Endpoint.cpp" path="cc3000_hostdriver_mbedsocket/Socket/Endpoint.cpp" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/Socket/UDPSocket.h" path="cc3000_hostdriver_mbedsocket/Socket/UDPSocket.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_sram.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_sram.h" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/Socket/Endpoint.h" path="cc3000_hostdriver_mbedsocket/Socket/Endpoint.h" type="1"/>
     <File name="headers/mbed/PortOut.h" path="mbed/PortOut.h" type="1"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_sram.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_sram.h" type="1"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" type="1"/>
     <File name="sources/main.cpp" path="main.cpp" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cryp.h" type="1"/>
     <File name="sources/IMU" path="" type="2"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/cc3000.h" path="cc3000_hostdriver_mbedsocket/cc3000.h" type="1"/>
     <File name="headers/mbed/DigitalOut.h" path="mbed/DigitalOut.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/arm_common_tables.h" path="mbed/TARGET_NUCLEO_L152RE/arm_common_tables.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_sc300.h" path="mbed/TARGET_NUCLEO_L152RE/core_sc300.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_iwdg.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_iwdg.h" type="1"/>
-    <File name="headers/mbed/Transaction.h" path="mbed/Transaction.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/cmsis.h" path="mbed/TARGET_NUCLEO_L152RE/cmsis.h" type="1"/>
+    <File name="headers/mbed/Transaction.h" path="mbed/Transaction.h" type="1"/>
     <File name="headers/mbed/gpio_api.h" path="mbed/gpio_api.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_fsmc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_fsmc.h" type="1"/>
     <File name="headers/mbed/mbed_error.h" path="mbed/mbed_error.h" type="1"/>
@@ -213,20 +213,20 @@
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PortNames.h" path="mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PortNames.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_event.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_event.cpp" type="1"/>
     <File name="headers/mbed/spi_api.h" path="mbed/spi_api.h" type="1"/>
-    <File name="headers/mbed/DigitalIn.h" path="mbed/DigitalIn.h" type="1"/>
     <File name="sources/minmea-master/minmea.h" path="minmea-master/minmea.h" type="1"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cortex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cortex.h" type="1"/>
-    <File name="sources/GPS" path="" type="2"/>
+    <File name="headers/mbed/DigitalIn.h" path="mbed/DigitalIn.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PinNames.h" path="mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PinNames.h" type="1"/>
+    <File name="sources/GPS" path="" type="2"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cortex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_cortex.h" type="1"/>
     <File name="headers/mbed/CAN.h" path="mbed/CAN.h" type="1"/>
     <File name="headers/mbed/pinmap.h" path="mbed/pinmap.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/arm_const_structs.h" path="mbed/TARGET_NUCLEO_L152RE/arm_const_structs.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_pcd.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_pcd.h" type="1"/>
-    <File name="headers/mbed/SerialBase.h" path="mbed/SerialBase.h" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket" path="" type="2"/>
+    <File name="headers/mbed/SerialBase.h" path="mbed/SerialBase.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_opamp_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_opamp_ex.h" type="1"/>
-    <File name="headers/mbed/mbed_assert.h" path="mbed/mbed_assert.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_cmSimd.h" path="mbed/TARGET_NUCLEO_L152RE/core_cmSimd.h" type="1"/>
+    <File name="headers/mbed/mbed_assert.h" path="mbed/mbed_assert.h" type="1"/>
     <File name="sources/minmea-master/minmea.c" path="minmea-master/minmea.c" type="1"/>
     <File name="headers/mbed/FileSystemLike.h" path="mbed/FileSystemLike.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_lcd.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_lcd.h" type="1"/>
@@ -269,9 +269,9 @@
     <File name="headers/mbed/InterruptManager.h" path="mbed/InterruptManager.h" type="1"/>
     <File name="headers/mbed/ticker_api.h" path="mbed/ticker_api.h" type="1"/>
     <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_netapp.h" path="cc3000_hostdriver_mbedsocket/cc3000_netapp.h" type="1"/>
+    <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_nvmem.h" path="cc3000_hostdriver_mbedsocket/cc3000_nvmem.h" type="1"/>
     <File name="headers/mbed/buffer.h" path="mbed/buffer.h" type="1"/>
     <File name="headers/mbed/FileBase.h" path="mbed/FileBase.h" type="1"/>
-    <File name="headers/cc3000_hostdriver_mbedsocket/cc3000_nvmem.h" path="cc3000_hostdriver_mbedsocket/cc3000_nvmem.h" type="1"/>
     <File name="sources/IMU/IMU.cpp" path="mbed/TARGET_NUCLEO_L152RE/TOOLCHAIN_GCC_ARM/IMU.cpp" type="1"/>
     <File name="sources/minmea-master" path="" type="2"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/core_cm0plus.h" path="mbed/TARGET_NUCLEO_L152RE/core_cm0plus.h" type="1"/>
@@ -293,19 +293,19 @@
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PeripheralNames.h" path="mbed/TARGET_NUCLEO_L152RE/TARGET_STM/TARGET_STM32L1/TARGET_NUCLEO_L152RE/PeripheralNames.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/Socket/TCPSocketConnection.cpp" path="cc3000_hostdriver_mbedsocket/Socket/TCPSocketConnection.cpp" type="1"/>
     <File name="headers/mbed/analogin_api.h" path="mbed/analogin_api.h" type="1"/>
-    <File name="headers/mbed/rtc_time.h" path="mbed/rtc_time.h" type="1"/>
     <File name="sources/minmea-master/.travis.yml" path="minmea-master/.travis.yml" type="1"/>
+    <File name="headers/mbed/rtc_time.h" path="mbed/rtc_time.h" type="1"/>
     <File name="sources/GPS/gps.h" path="GPS/gps.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_usart.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_usart.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_adc_ex.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_adc_ex.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket/cc3000_nvmem.cpp" path="cc3000_hostdriver_mbedsocket/cc3000_nvmem.cpp" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_gpio.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_gpio.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rcc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rcc.h" type="1"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_nor.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_nor.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_rtc.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_nor.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_nor.h" type="1"/>
     <File name="sources/cc3000_hostdriver_mbedsocket" path="" type="2"/>
-    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_smartcard.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_smartcard.h" type="1"/>
     <File name="headers/mbed/FileLike.h" path="mbed/FileLike.h" type="1"/>
+    <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_smartcard.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_smartcard.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_opamp.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_opamp.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_spi.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_hal_spi.h" type="1"/>
     <File name="headers/mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_sdmmc.h" path="mbed/TARGET_NUCLEO_L152RE/stm32l1xx_ll_sdmmc.h" type="1"/>

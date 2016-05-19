@@ -15,21 +15,21 @@ int increment_imu(void){
 }
 
 void set_gyro(int x,int y,int z){
-	imudata.gyro_x[inc]=x;
-	imudata.gyro_y[inc]=y;
-	imudata.gyro_z[inc]=z;
+	imudata.gyro_x[inc-1]=x;
+	imudata.gyro_y[inc-1]=y;
+	imudata.gyro_z[inc-1]=z;
 }
 
 void set_accel(int x,int y,int z){
-	imudata.accel_x[inc]=x;
-	imudata.accel_y[inc]=y;
-	imudata.accel_z[inc]=z;
+	imudata.accel_x[inc-1]=x;
+	imudata.accel_y[inc-1]=y;
+	imudata.accel_z[inc-1]=z;
 }
 
 void set_mag(int x,int y,int z){
-	imudata.mag_x[inc]=x;
-	imudata.mag_y[inc]=y;
-	imudata.mag_z[inc]=z;
+	imudata.mag_x[inc-1]=x;
+	imudata.mag_y[inc-1]=y;
+	imudata.mag_z[inc-1]=z;
 }
 
 void set_all(int gx,int gy,int gz,int ax,int ay,int az,int mx,int my,int mz){
