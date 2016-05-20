@@ -2,6 +2,19 @@
 #include "gps.h"
 #include "IMU.h"
 
+typedef enum {
+    GPS_GET,
+    IMU_GET,
+    WRITE_DATA
+} sensor_status;
+
+struct data{
+	gps_data gpsdata;
+	imu_data imudata;
+};
+
+//
+sensor_status sen_status;
 //Timers
 Ticker print_tick;
 Ticker sensor_tick;
@@ -16,10 +29,9 @@ AnalogIn az(PC_0);
 //Serial Devices
 Serial pc(USBTX,USBRX);
 
-struct data{
-	gps_data gpsdata;
-	imu_data imudata;
-};
+
+
+
 
 data sensordata;
 
@@ -37,7 +49,6 @@ void imu_handler(){
 
 	if (increment_imu()) {
 		sensordata.imudata = get_imu();
-		IMU_tick.detach();
 		print_handler();
 	}else{
 		set_all((int)gx.read_u16(),(int)gy.read_u16(),(int)gz.read_u16(),(int)ax.read_u16(),(int)ay.read_u16(),(int)az.read_u16(),0,0,0);
@@ -46,15 +57,24 @@ void imu_handler(){
 }
 
 void sensor_handler(){
-	sensordata.gpsdata = get_gps();
-	imu_handler();//call first time
-	IMU_tick.attach(&imu_handler,0.02);
-/* Case Handeler
- * GPS_GET IMU_GET
- * IMU_GET x49
- * PRINT
- * ETC.....?
- */
+	switch(sen_status){
+	case GPS_GET:
+		sensordata.gpsdata = get_gps();
+		set_all((int)gx.read_u16(),(int)gy.read_u16(),(int)gz.read_u16(),(int)ax.read_u16(),(int)ay.read_u16(),(int)az.read_u16(),0,0,0);
+		sen_status = IMU_GET;
+		break;
+	case IMU_GET:
+		if (increment_imu()) {
+			set_all((int)gx.read_u16(),(int)gy.read_u16(),(int)gz.read_u16(),(int)ax.read_u16(),(int)ay.read_u16(),(int)az.read_u16(),0,0,0);
+			sensordata.imudata = get_imu();
+			print_handler();
+			sen_status = GPS_GET;
+		}else{
+			set_all((int)gx.read_u16(),(int)gy.read_u16(),(int)gz.read_u16(),(int)ax.read_u16(),(int)ay.read_u16(),(int)az.read_u16(),0,0,0);
+		}
+	default:
+		break;
+	}
 
 }
 
@@ -68,7 +88,7 @@ int main() {
 	pc.baud(256000);
 	gps_init();
 	pc.printf("\n\n**********TEST**********\n\n\r");
-	sensor_tick.attach(&sensor_handler,1);
+	sensor_tick.attach(&sensor_handler,0.02);
     while (true) {
         // Do other things...
     }
