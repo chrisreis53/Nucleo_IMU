@@ -1,6 +1,7 @@
 #include "mbed.h"
 #include "gps.h"
 #include "IMU.h"
+#include "SDFileSystem.h"
 
 typedef enum {
     GPS_GET,
@@ -28,6 +29,8 @@ AnalogIn ay(PC_1);
 AnalogIn az(PC_0);
 //Serial Devices
 Serial pc(USBTX,USBRX);
+//SPI spi_1(PA_7,PA_6,PA_5);//MOSI, MISO, SCK
+SDFileSystem sd(PA_7,PA_6,PA_5,PA_9,"sd");
 
 
 
@@ -42,6 +45,14 @@ void print_handler(void){
 	for(int i = 0;i<50;i++){
 		printf("G: %i, %i, %i\tA: %i, %i, %i\n\r",imudata.gyro_x[i],imudata.gyro_y[i],imudata.gyro_z[i],imudata.accel_x[i],imudata.accel_y[i],imudata.accel_z[i]);
 	}
+	mkdir("/sd/mydir", 0777);
+
+	FILE *fp = fopen("/sd/mydir/sdtest.txt", "w+");
+	if(fp == NULL) {
+		error("Could not open file for write\n\c");
+	}
+	fprintf(fp, "Hello fun SD Card World! TIME:  %i:%i:%2i.%2i ALT:%i\n\r",gpsdata.hours,gpsdata.minutes,gpsdata.seconds,gpsdata.microseconds,(int)gpsdata.altitude);
+	fclose(fp);
 
 }
 
